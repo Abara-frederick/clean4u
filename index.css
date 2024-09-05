@@ -1,0 +1,491 @@
+body{
+    background-color: rgb(253, 253, 253);
+    margin: 0;
+    padding: 0;
+    color: rgb(43, 43, 43);
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 728px){
+
+
+    .hero{
+        min-height: 80vh;
+        min-width: 100vw; 
+        background-image: url('images/Floor-polishing-service.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .believe{
+        margin: 10vh 5vw;
+        padding: 5vh 5vw;
+    }
+    .header{
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(19, 19, 19);
+    }
+    .WhyChooseUsDiv{
+        padding: 5vh 5vw;
+    }
+    .WhyChooseUsDiv .header{
+        color: rgb(177, 177, 61);
+        
+    }
+    .why{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+    }
+    .why p{
+        font-style: italic;
+        align-items: center;
+        max-width: 70vh;
+    }
+    .why .header{
+        font-style: normal;
+        font-size: 27px;
+    }
+    
+    .ServicesDiv{
+        margin: 10vh 10vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ServicesDiv img{
+        width: 80vw;
+        border-radius: 3px;
+    
+    }
+    
+    .ServicesDiv button{
+        margin: 15px;
+        padding: 15px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(177, 177, 61);
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    
+    }
+    .ServicesDiv button:hover{
+        cursor: pointer;
+        background-color: transparent;
+        color: rgb(177, 177, 61);
+        border: solid 1px rgb(177, 177, 61);
+        transition: 500ms;
+    }
+    .Services .OurBestServices{
+        color: rgb(177, 177, 61);
+        font-size: 22px;
+    }
+    
+    
+    .records{
+        background-image: url('images/yellow-gloves-spraybottle.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+        width: 100%;
+        padding: 10vh 2vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20vw;
+    }
+    .recordsContents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 30vw;
+    }
+    .recordsContents div{
+        height: 5vh;
+        width: 5vw;
+        border: solid 2px rgb(177, 177, 61);
+    }
+    .recordsContents .recordsFigures{
+        font-size: 25px;
+        font-weight: bolder;
+        margin-bottom: 0;
+    }
+    
+    
+    .TestimoniesDiv{
+        background-color: rgb(27, 27, 27);
+        width: 70vw;
+        padding: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .TestimoniesDiv div{
+        display: flex;
+        flex-direction: column;
+        gap: 5vh 0;
+
+    }
+    .testimonies{
+        /* replace background color withbackgrond image */
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+    }
+    
+    .testimonyAvater img{
+        width: 25vh;
+        height: 25vh;
+        border-radius: 100%;
+    }
+    
+    .getPrice{
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ContactDetails{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5vw;
+        gap: 3vh 0;
+    }
+    .ContactDetails input{
+        width: 100%;
+        height: 40px;
+        font-size: 17px;
+    }
+    .ContactDetails textarea{
+        width: 80vw;
+        font-size: 16px;
+    }
+    
+    .getPrice button{
+        margin: 15px;
+        padding: 15px 30px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(177, 177, 61);
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    
+    }
+    .getPrice button:hover{
+        cursor: pointer;
+        background-color: transparent;
+        color: rgb(177, 177, 61);
+        border: solid 1px rgb(177, 177, 61);
+        transition: 500ms;
+    }
+    
+    .footer{
+        padding: 5vw;
+        background-color: #054a53;
+        color: rgb(240, 240, 240);
+        gap: 20vh 0;
+    }
+    .footer li{
+        list-style-type: none;
+        margin-block: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 727px){
+    .believe{
+        margin: 10vh 5vw;
+        padding: 5vh 5vw;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .believeItems{
+        width: 75%;
+        display: flex;
+        gap: 10px;
+    }
+    .check{
+        margin-block: 20px;
+        width: 5vw;
+        height: 2vw;
+        border: solid 1px rgb(177, 177, 61);
+    }
+    .header{
+        font-weight: bold;
+        font-size: 20px;
+        color: rgb(19, 19, 19);
+    }
+
+    .WhyChooseUsDiv{
+        padding-inline: 5vw;
+        /* replace background color witha background image */
+        background-color: #333333;
+        font-size: 20px;
+        color: white;
+    }
+    .WhyChooseUsDiv .header{
+        color: rgb(177, 177, 61);
+        
+    }
+    .why{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+    }
+    .why p{
+        font-style: italic;
+        align-items: center;
+        max-width: 70vh;
+        font-weight: bold;
+    }
+    .why .header{
+        font-style: normal;
+        font-size: 27px;
+    }
+    .WhyChooseUs{
+        display: flex;
+        justify-content: space-between;
+        padding: 5vw;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        min-width: 40%;
+    }
+    .WhyChooseUsItems{
+        display: flex;
+        justify-content: space-between;
+        width: 35vw;
+    }
+    .WhyChooseUsItems .box{
+        width: 10vw;
+        height: 2vw;
+        border: solid 1px rgb(177, 177, 61);
+        margin-right: 15px;
+    }
+    .WhyChooseUsContent .header{
+        margin-top: 0;
+    }
+
+
+    
+    .ServicesDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 60vw;
+    }
+    .Services .OurBestServices{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        margin-bottom: 0;
+        color: rgb(177, 177, 61);
+    }
+    .Services p{
+        font-style: italic;
+        font-size: 19px;
+    }
+    .ServicesItems{
+        display: flex;
+        justify-content: center;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        column-gap: 5vw;
+    }
+    .item{
+        width: 25vw;
+    }
+    .item img{
+        width: 100%;
+    }
+
+
+
+    .ServicesDiv button{
+        margin: 15px;
+        padding: 15px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(177, 177, 61);
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .ServicesDiv button:hover{
+        cursor: pointer;
+        background-color: transparent;
+        color: rgb(177, 177, 61);
+        border: solid 1px rgb(177, 177, 61);
+        transition: 500ms;
+    }
+
+
+
+    .records{
+        width: 90vw;
+        height: 40vh;
+        background-image: url('images/yellow-gloves-spraybottle-2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* -webkit-backdrop-filter: brightness(40%); */
+        /* opacity: 100%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        gap: 8vw;
+        font-size: 20px;
+        padding: 5vw;
+    }
+
+    .recordsContents div{
+        width: 4vw;
+        height: 4vw;
+        border: solid 1.5px rgb(177, 177, 61);
+    }
+    .recordsContents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .recordsFigures{
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+
+    .TestimoniesDiv{
+        background-image: url('images/yellow-gloves-spraybottle-2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 90vw;
+        height: 70vh;
+        background-color: #054a53;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        padding: 5vw;
+        /* justify-content: center; */
+    }
+    .TestimoniesDiv div{
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        column-gap: 5vw;
+
+    }
+    .testimonies{
+        width: 28vw;
+        padding: 2vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: rgb(29, 29, 29);
+        background-color: rgb(255, 255, 255);
+    }
+    .testimonyAvater{
+        max-width: 20vw;
+        max-height: 20vw;
+        display: flex;
+        justify-content: center;
+    }
+    .testimonyAvater img{
+        width: 100%;
+        border-radius: 100%;
+    }
+
+
+    .getPrice{
+        padding: 5vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ContactDetails{
+        display: flex;
+        flex-direction: column;
+        /* align-items: start; */
+        justify-content: flex-start;
+        padding: 5vw;
+        gap: 3vh 0;
+    }
+    .ContactDetails input{
+        width: 40vw;
+        height: 40px;
+        font-size: 17px;
+    }
+    .ContactDetails textarea{
+        width: 40vw;
+        font-size: 16px;
+    }
+    
+    .getPrice button{
+        margin: 15px;
+        padding: 15px 30px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(177, 177, 61);
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+    
+    }
+    .getPrice button:hover{
+        cursor: pointer;
+        background-color: transparent;
+        color: rgb(177, 177, 61);
+        border: solid 1px rgb(177, 177, 61);
+        transition: 500ms;
+    }
+    
+
+
+    .footer{
+        padding: 5vw;
+        background-color: #054a53;
+        color: rgb(240, 240, 240);
+        gap: 20vh 0;
+        display: flex;
+        column-gap: 7.5vw;
+        font-size: 20px;
+
+    }
+    .footer div{
+        width: 25vw;
+        
+    }
+    .footer li{
+        list-style-type: none;
+        margin-block: 10px;
+    }
+    
+}
